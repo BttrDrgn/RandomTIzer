@@ -1,4 +1,4 @@
-#include <utils/fs/fs.hpp>
+#include <fs/fs.hpp>
 
 namespace rando
 {
@@ -10,7 +10,7 @@ namespace rando
 		utils::console::init();
 #endif
 
-		utils::fs::init();
+		fs::init();
 	}
 }
 
